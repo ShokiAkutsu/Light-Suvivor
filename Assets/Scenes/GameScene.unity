@@ -169,7 +169,7 @@ MonoBehaviour:
   enemyList:
   - {fileID: 1155140951646607495, guid: 163a4e872c3b4aa498ffba8bf80b37fe, type: 3}
   generateFrame: 200
-  radius: 5
+  radius: 8
 --- !u!1 &373177827
 GameObject:
   m_ObjectHideFlags: 0
@@ -201,6 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca70bb2d1fb2a245ac4bb405d3fca2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerLife: 5
 --- !u!212 &373177829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -424,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc1a2c0f30c593748a1bde5f42edff83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1.5
+  speed: 2
 --- !u!4 &625050402
 Transform:
   m_ObjectHideFlags: 0
@@ -500,8 +501,8 @@ Transform:
   m_GameObject: {fileID: 2073884547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.5, z: 0}
-  m_LocalScale: {x: 4, y: 3, z: 1}
+  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalScale: {x: 3, y: 3.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 625050402}
